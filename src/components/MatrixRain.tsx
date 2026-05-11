@@ -16,7 +16,7 @@ export default function MatrixRain() {
     resize()
     window.addEventListener('resize', resize)
 
-    const chars = '01アイウエオカキクケコサシスセソタチツテトAGENTZERO$AGZR█▓▒░'
+    const chars = '01アイウエオカキクケコサシスセソタチツテトAGENTZERO$ZERO█▓▒░'
     const fontSize = 14
     const columns = Math.floor(canvas.width / fontSize)
     const drops: number[] = Array(columns).fill(1)

@@ -17,7 +17,7 @@ export default function Navbar() {
         <span className="brand-mark">{'>'}_</span>
         <span className="brand-text">
           <strong>AGENT ZERO</strong>
-          <small>$AGZR Protocol</small>
+          <small>$ZERO Protocol</small>
         </span>
       </Link>
 

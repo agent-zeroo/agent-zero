@@ -43,7 +43,7 @@ export default function MintPanel() {
         </div>
         <div className="quote-item">
           <span>Receive</span>
-          <strong className="text-green">{receive.toLocaleString()} $AGZR</strong>
+          <strong className="text-green">{receive.toLocaleString()} $ZERO</strong>
         </div>
       </div>
 

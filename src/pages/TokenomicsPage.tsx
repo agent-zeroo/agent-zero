@@ -24,7 +24,7 @@ export default function TokenomicsPage() {
 
         <p className="hero-lede">
           <span className="prompt-prefix">$</span>
-          $AGZR is a fixed-supply, deflationary ERC-20 token. The compression
+          $ZERO is a fixed-supply, deflationary ERC-20 token. The compression
           mechanism permanently removes tokens from circulation, creating
           increasing scarcity over time.
           <span className="cursor-blink" />
@@ -34,7 +34,7 @@ export default function TokenomicsPage() {
         <div className="terminal-block">
           <div className="line">
             <span className="prompt">$</span>
-            <span className="output">agzr token info --verbose</span>
+            <span className="output">zero token info --verbose</span>
           </div>
           <div className="line">
             <span className="prompt">&gt;</span>
@@ -42,7 +42,7 @@ export default function TokenomicsPage() {
           </div>
           <div className="line">
             <span className="prompt">&gt;</span>
-            <span className="output">Symbol ......... $AGZR</span>
+            <span className="output">Symbol ......... $ZERO</span>
           </div>
           <div className="line">
             <span className="prompt">&gt;</span>
@@ -54,11 +54,11 @@ export default function TokenomicsPage() {
           </div>
           <div className="line">
             <span className="prompt">&gt;</span>
-            <span className="output">Total Supply ... 21,000,000 $AGZR</span>
+            <span className="output">Total Supply ... 21,000,000 $ZERO</span>
           </div>
           <div className="line">
             <span className="prompt">&gt;</span>
-            <span className="output">Floor .......... 2,100,000 $AGZR</span>
+            <span className="output">Floor .......... 2,100,000 $ZERO</span>
           </div>
           <div className="line">
             <span className="prompt">&gt;</span>

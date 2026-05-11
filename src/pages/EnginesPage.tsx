@@ -5,7 +5,7 @@ const ENGINES = [
   {
     icon: <Bot size={22} />,
     name: 'Agent Deployer',
-    desc: 'Spawn autonomous on-chain agents that execute predefined strategies. Each agent burns $AGZR on deployment.',
+    desc: 'Spawn autonomous on-chain agents that execute predefined strategies. Each agent burns $ZERO on deployment.',
     status: 'active' as const,
     color: 'green',
   },
@@ -64,7 +64,7 @@ export default function EnginesPage() {
           <span className="prompt-prefix">$</span>
           The engine registry powers all on-chain agent operations.
           Each engine is a modular smart contract that can be composed,
-          upgraded, and governed by $AGZR holders.
+          upgraded, and governed by $ZERO holders.
           <span className="cursor-blink" />
         </p>
 
@@ -72,7 +72,7 @@ export default function EnginesPage() {
         <div className="terminal-block">
           <div className="line">
             <span className="prompt">$</span>
-            <span className="output">agzr engines list --status</span>
+            <span className="output">zero engines list --status</span>
           </div>
           <div className="line">
             <span className="prompt">&gt;</span>
